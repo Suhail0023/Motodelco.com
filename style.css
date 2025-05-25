@@ -107,3 +107,7 @@ footer {
   padding: 1em 0;
   font-size: 0.9em;
 }
+
+footer a {
+  text-decoration: none;
+}
