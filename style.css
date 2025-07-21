@@ -23,9 +23,18 @@ header {
   padding: 1em 0;
 }
 
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .logo {
   height: 50px;
-  vertical-align: middle;
+}
+
+.iso-logo {
+  height: 40px;
 }
 
 header .container {
@@ -71,7 +80,6 @@ h2 {
   margin-left: 2em;
 }
 
-/* Products Section */
 .products {
   background-color: #f9f9f9;
 }
