@@ -8,39 +8,79 @@
 </head>
 <body>
   <header>
-    <h1>Motodelco Lubricants</h1>
-    <p>Premium Performance. Maximum Protection.</p>
+    <div class="container">
+      <div class="logo-group">
+        <img src="logo.png" alt="Motodelco Logo" class="logo" />
+        <img src="iso-logo.png" alt="ISO Logo" class="iso-logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section class="products">
-    <h2>Our Products</h2>
-    <div class="product-list">
-
-      <div class="product-card">
-        <img src="A_digital_photograph_showcases_a_1-liter_Motodelco.png" alt="Engine Oil">
-        <h3>Engine Oil</h3>
-        <p>High-performance engine oils for ultimate protection and efficiency.</p>
-      </div>
-
-      <div class="product-card">
-        <img src="gear-oil.jpg.jpeg" alt="Gear Oil">
-        <h3>Gear Oil</h3>
-        <p>Ensures smooth transmission operation with anti-wear properties.</p>
-      </div>
-
-      <div class="product-card">
-        <img src="A_digital_photograph_showcases_three_Motodelco_Lub.png" alt="Coolant">
-        <h3>Radiator Coolant</h3>
-        <p>Advanced cooling technology for all-weather engine protection.</p>
-      </div>
-
-      <div class="product-card">
-        <img src="steering.jpg" alt="Steering Oil">
-        <h3>Steering Oil</h3>
-        <p>Precise handling with long-lasting steering system protection.</p>
-      </div>
-
+  <section class="hero">
+    <div class="container">
+      <h1>Motodelco Lubricants</h1>
+      <p>Engineered to Perform. Trusted to Protect.</p>
     </div>
+  </section>
+
+  <section id="about" class="about container">
+    <h2>About Us</h2>
+    <p>Motodelco Lubricants offers a premium range of oils and fluids designed for top engine performance, durability, and environmental standards.</p>
+  </section>
+
+  <section id="services" class="services container">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Automotive Lubricant Supply</li>
+      <li>Custom Oil Blending</li>
+      <li>Technical Consultation</li>
+    </ul>
+  </section>
+
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="engine-oil.jpg.jpeg" alt="Engine Oil">
+          <h3>Engine Oil</h3>
+          <p>High-performance engine oils designed for efficiency and protection.</p>
+        </div>
+        <div class="product-card">
+          <img src="gear-oil.jpg.jpeg" alt="Gear Oil">
+          <h3>Gear Oil</h3>
+          <p>Superior gear lubrication for smoother transmission and longevity.</p>
+        </div>
+        <div class="product-card">
+          <img src="coolant.jpg.png" alt="Coolant">
+          <h3>Coolant</h3>
+          <p>Advanced coolant technology to manage temperature and corrosion.</p>
+        </div>
+        <div class="product-card">
+          <img src="steering-oil.jpg.jpeg" alt="Steering Oil">
+          <h3>Steering Oil</h3>
+          <p>Hydraulic steering fluid ensuring smooth and responsive control.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact container">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
   </section>
 
   <footer>
